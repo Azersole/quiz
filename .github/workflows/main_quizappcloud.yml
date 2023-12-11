@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'quizappcloud'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5ED0E007B0DA480185871213DE5BC267 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D2A419FDE045456F8F4351964C54A537 }}
