@@ -87,20 +87,13 @@ WSGI_APPLICATION = 'pollster.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'quizappcloud-database',
-        'HOST': 'quizappcloud-server.postgres.database.azure.com',
-        'USER': 'mmjeabihpb',
-        'PASSWORD': '45QB6YGH5LFS857Y$',
-        'port': '5432'
+        'NAME': os.environ.get('DBNAME'),
+        'HOST': os.environ.get('DBHOST'),
+        'USER': os.environ.get('DBUSER'),
+        'PASSWORD': os.environ.get('DBPASS'),
         'OPTIONS': {'sslmode': 'require'},
     }
 }
-
-DEBUG=1
-SECRET_KEY=w7a8a@lj8nax7tem0caa2f2rjm2ahsascyf83sa5alyv68vea
-ALLOWED_HOSTS=localhost 127.0.0.1 [::1] quizappcloud.azurewebsites.net
-CSRF_TRUSTED_ORIGINS=quizappcloud.azurewebsites.net
-SECURE_SSL_REDIRECT=0
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
