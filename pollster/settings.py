@@ -98,7 +98,7 @@ DATABASES = {
 
 DEBUG=1
 SECRET_KEY=w7a8a@lj8nax7tem0caa2f2rjm2ahsascyf83sa5alyv68vea
-ALLOWED_HOSTS=localhost 127.0.0.1 [::1] <your_app_url>
+ALLOWED_HOSTS=localhost 127.0.0.1 [::1] quizappcloud.azurewebsites.net
 CSRF_TRUSTED_ORIGINS=quizappcloud.azurewebsites.net
 SECURE_SSL_REDIRECT=0
 
