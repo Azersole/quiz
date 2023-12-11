@@ -32,7 +32,7 @@ SECURE_SSL_REDIRECT = \
 if SECURE_SSL_REDIRECT:
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
-ALLOWED_HOSTS = ['20.105.216.45','quizcloud.azurewebsites.net']
+ALLOWED_HOSTS = ['20.107.224.36','quizappcloud.azurewebsites.net']
 
 
 # Application definition
