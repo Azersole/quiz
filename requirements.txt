@@ -1,0 +1,10 @@
+asgiref
+Django
+django-cleanup
+django-crispy-forms
+Pillow
+pytz
+sqlparse
+python-dotenv
+psycopg2-binary==2.9.5
+gunicorn==20.1.0
